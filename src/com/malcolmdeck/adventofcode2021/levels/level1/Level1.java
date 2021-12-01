@@ -38,6 +38,7 @@ public class Level1 {
             int count = 0;
             while (scanner.hasNextLine()) {
                 int curr = scanner.nextInt();
+                // Difference in sums is just difference of the only elements that weren't common between them
                 if (prev3 < curr) {
                     count++;
                 }
