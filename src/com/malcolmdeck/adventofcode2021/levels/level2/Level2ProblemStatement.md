@@ -1,3 +1,5 @@
+--- Day 2: Dive! ---
+
 **Part One:**
 
 Now, you need to figure out how to pilot this thing.
