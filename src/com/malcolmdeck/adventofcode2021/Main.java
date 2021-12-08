@@ -12,6 +12,6 @@ import com.malcolmdeck.adventofcode2021.levels.level8.Level8;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Level8.partOne();
+        Level8.partTwo();
     }
 }
