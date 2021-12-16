@@ -8,7 +8,10 @@ import java.net.URL;
 public class FileHelper {
 
     public static File getFile(String fileName) throws FileNotFoundException {
-        return new File("C:\\Users\\malco\\IdeaProjects\\AdventOfCode2021\\src\\com\\malcolmdeck\\adventofcode2021\\levels\\" + fileName);
+        // Desktop
+//        return new File("C:\\Users\\malco\\IdeaProjects\\AdventOfCode2021\\src\\com\\malcolmdeck\\adventofcode2021\\levels\\" + fileName);
+        // Laptop
+        return new File("C:\\Users\\Malcolm_razer\\IdeaProjects\\AdventOfCode2021\\src\\com\\malcolmdeck\\adventofcode2021\\levels\\" + fileName);
     }
 
 }
